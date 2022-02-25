@@ -7,5 +7,4 @@ while True :
     if x == 0 :
         break
 for j in range(i-1) :
-    print("Case {}: {}".format(j+1,l[j]))
-
+    print("Case {}: {}".format(j+1, l[j]))
