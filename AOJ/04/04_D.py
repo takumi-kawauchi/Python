@@ -1,7 +1,6 @@
+l = []
 n = int(input())
 a = input().split()
-s = 0
 for i in range(n) :
-    s += int(a[i])
-print(min(*a), max(*a), s)
-
+    l.append(int(a[i]))
+print(min(l), max(l), sum(l))
