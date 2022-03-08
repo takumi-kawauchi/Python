@@ -13,5 +13,5 @@ while True :
         l.append(a // b)
     elif op == "?" :
         break
-print(*l)
+print(*l, sep ="\n")
 
