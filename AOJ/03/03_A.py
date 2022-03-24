@@ -1,5 +1,3 @@
-i = 0
-while i < 1000 :
+for i in range(1000):
     print("Hello World")
-    i += 1
 
