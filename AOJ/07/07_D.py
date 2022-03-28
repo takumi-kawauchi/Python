@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Mar 28 22:14:22 2022
-
-@author: tayun
-"""
-
 n, m, l = map(int, input().split())
 A = []
 B = []
@@ -34,11 +27,5 @@ for i in range(n):
     C.append(R)
 #結果を出力    
 for i in range(len(C)):
-    print(*C[i])
-
-
-           
-    
-    
-
-    
+    print(*C[i])  
+             
