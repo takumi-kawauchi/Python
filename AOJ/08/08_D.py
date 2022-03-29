@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Mar 29 14:47:20 2022
-
-@author: tayun
-"""
-
 s = input()
 p = input()
 count = 0
@@ -18,6 +11,4 @@ if count == 1 :
     print("Yes")
 else:
     print("No")
-
-    
     
