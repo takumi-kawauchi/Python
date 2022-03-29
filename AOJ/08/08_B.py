@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Mar 29 13:56:16 2022
-
-@author: tayun
-"""
-
 l = []
 while True:
     x = str(input())
