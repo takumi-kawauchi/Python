@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Mar 29 14:03:05 2022
-
-@author: tayun
-"""
-
 import string
 l = []
 for j in range(len(string.ascii_lowercase)):
@@ -23,3 +16,4 @@ while True:
         break
 for i in range(len(l)):
     print(l[i] + " : " + str(r[i]))
+    
