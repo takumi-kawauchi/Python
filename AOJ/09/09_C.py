@@ -27,5 +27,3 @@ for i in range(len(t_l)):
     else:
         h_p += 3
 print(t_p, h_p)
-    
-    
