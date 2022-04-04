@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Apr  4 22:58:30 2022
+Created on Tue Apr  5 00:03:33 2022
 
 @author: tayun
 """
@@ -20,4 +20,3 @@ for i in range(q):
         Str = Str[:int(ls[1])] + Str_r[::-1] + Str[int(ls[2])+1:] 
     else:
         Str = Str[:int(ls[1])] + ls[3] + Str[int(ls[2])+1:]
-        
