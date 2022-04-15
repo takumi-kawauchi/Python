@@ -29,12 +29,6 @@ class Dice:
         if order == "N":
             self.top, self.front, self.bottom, self.back = \
             self.front, self.bottom, self.back, self.top
-        if order == "R":
-            self.right, self.front, self.left, self.back = \
-            self.back, self.right, self.front, self.left
-        if order == "L":
-            self.right, self.front, self.left, self.back = \
-            self.front, self.left, self.back, self.right
     
     #転がし終わった後、上面の数字を取得する関数
     def show_top(self):
