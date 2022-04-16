@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Apr 15 23:43:02 2022
-
-@author: tayun
-"""
-
 #クラスを定義（サイコロ）
 class Dice:
     #インプットからの値によりサイコロの目を定義するための関数
@@ -15,8 +8,6 @@ class Dice:
         self.left = num_list[3]
         self.back = num_list[4]
         self.bottom = num_list[5]
-                
-    
     #全ての転がし方を試すための関数
     def orders(self, num_top, num_front):
         #全通り試すことのできる命令のリストを作成
@@ -48,6 +39,4 @@ for _ in range(order_num):
     result.append(dice.orders(num_top, num_front))
 for _ in result:
     print(_)
-
-
-
+   
