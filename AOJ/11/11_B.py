@@ -8,8 +8,6 @@ class Dice:
         self.left = num_list[3]
         self.back = num_list[4]
         self.bottom = num_list[5]
-                
-    
     #全ての転がし方を試すための関数
     def orders(self, num_top, num_front):
         #全通り試すことのできる命令のリストを作成
